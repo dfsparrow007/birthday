@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Subi & Suji • 21st Birthday • 15.11.26</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;700&family=Inter:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css?v=4">
+</head>
+<body>
+<div class="sky" aria-hidden="true"><div class="moon"></div><div id="stars"></div><div class="bokeh"></div></div>
+<canvas id="fx" aria-hidden="true"></canvas>
+<div id="balloons" aria-hidden="true"></div>
+
+<!-- FRAME 1: COUNTDOWN -->
+<main id="lock" class="screen active">
+  <section class="glass card center">
+    <span class="badge">✦ 15 • 11 • 2026 ✦</span>
+    <h1>Two Incredible Souls. One Unforgettable Midnight.</h1>
+    <p class="sub">A special surprise crafted just for Subi &amp; Suji unlocks the exact second the clock strikes 12:00 AM on November 15, 2026.</p>
+    <div class="tiles" role="timer" aria-live="off">
+      <div class="tile"><b id="cd-d">00</b><span>DAYS</span></div>
+      <div class="tile"><b id="cd-h">00</b><span>HOURS</span></div>
+      <div class="tile"><b id="cd-m">00</b><span>MINUTES</span></div>
+      <div class="tile"><b id="cd-s">00</b><span>SECONDS</span></div>
+    </div>
+    <div class="locked"><span class="padlock">🔒</span><button class="pill" disabled>Gates Open at Midnight (15.11.26)</button></div>
+    <p class="caption">Keep this tab open to watch the magic happen live.</p>
+  </section>
+</main>
+
+<!-- FRAME 2: CELEBRATION -->
+<main id="celebrate" class="screen">
+  <section class="glass card center glow">
+    <span class="badge">🎉 IT'S 15.11.26 — HAPPY 21ST BIRTHDAY!</span>
+    <h1>The Wait is Over! Who's Stepping In First?</h1>
+    <p class="sub">Tap your name suggestion or type it below:</p>
+    <div class="chips">
+      <button class="chip" data-twin="subi"><i class="av a1">S</i>✨ Subi</button>
+      <button class="chip" data-twin="suji"><i class="av a2">S</i>✨ Suji</button>
+    </div>
+    <input id="nameInput" class="field" type="text" placeholder="Enter your name (Subi or Suji)..." autocomplete="off" aria-label="Your name">
+    <p id="nameErr" class="err" role="alert" hidden>Please enter Subi or Suji ✨</p>
+    <button id="nameGo" class="btn">Continue to Your Surprise →</button>
+  </section>
+</main>
+
+<!-- FRAME 3: PASSWORD -->
+<main id="verify" class="screen">
+  <section class="glass card center modal">
+    <div class="emblem">🗝️</div>
+    <h1 id="vTitle">Welcome! Unlock Your Space</h1>
+    <p class="sub">Enter the date the world became brighter with you two in it.</p>
+    <div class="pw">
+      <input id="pw" class="field" type="password" placeholder="Enter password (DD.MM.YYYY)..." autocomplete="off" aria-label="Password">
+      <button id="eye" class="eye" type="button" aria-label="Show password">👁️</button>
+    </div>
+    <p id="pwErr" class="err" role="alert" hidden>Oops! Hint: Enter your birth date 15.11.2005</p>
+    <div class="hint">Hint: Your birth date (DD.MM.YYYY)</div>
+    <button id="pwGo" class="btn">Unlock My Birthday Page 🎁</button>
+    <a href="#" id="switch" class="link">← Not you? Switch name</a>
+  </section>
+</main>
+
+<!-- FRAMES 4 & 5: PERSONAL PAGES (rendered by script.js) -->
+<div id="pageHost"></div>
+<input type="file" id="picker" accept="image/*" hidden>
+<script src="script.js?v=4"></script>
+</body>
+</html>
