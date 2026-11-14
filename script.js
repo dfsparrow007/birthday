@@ -4,14 +4,14 @@ const PASSWORD = "15.11.2005";
 const CONTENT = {
   subi: {
     name: "Subi", other: "suji",
-    letter: "Today the world gets to celebrate one of its brightest lights. Twenty-one years ago you arrived and everything became softer, louder and so much more fun.\n\n[Replace this with your own heartfelt letter - a memory, a thank-you, a wish for the year ahead.]",
-    sign: "Forever yours, with all my love",
+    letter:"wish you happy birthday thoooozhi be happy forever ",
+    sign: "the art noticing and efforts u always wins",
     caption: "Partners in crime"
   },
   suji: {
     name: "Suji", other: "subi",
-    letter: "Happy 21st to my person, my mirror, my favourite chaos. You make every ordinary day feel like a celebration.\n\n[Replace this with your own heartfelt letter - a memory, a thank-you, a wish for the year ahead.]",
-    sign: "Forever yours, with all my love",
+    letter: "wish you happy birthday madam be happy for ever",
+    sign: "reciving place",
     caption: "Best days with you"
   }
 };
