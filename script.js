@@ -3,13 +3,13 @@ const TARGET = new Date(2026, 10, 15, 0, 0, 0); // 15 Nov 2026, 12:00 AM (viewer
 const PASSWORD = "15.11.2005";
 const CONTENT = {
   subi: {
-    name: "Subi", other: "suji",
+    name: "Subi", other: "Subi",
     letter:"wish you happy birthday thoooozhi be happy forever ",
     sign: "the art noticing and efforts u always wins",
     caption: "Partners in crime"
   },
   suji: {
-    name: "Suji", other: "subi",
+    name: "Suji", other: "Suji",
     letter: "wish you happy birthday madam be happy for ever",
     sign: "reciving place",
     caption: "Best days with you"
