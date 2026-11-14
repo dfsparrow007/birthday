@@ -6,13 +6,13 @@ const CONTENT = {
     name: "Subi", other: "subi",
     letter:"wish you happy birthday thoooozhi be happy forever ",
     sign: "the art noticing and efforts u always wins",
-    caption: "thoooooozhhhii"
+    caption: "thoooooozhhhii✨✨✨"
   },
   suji: {
     name: "Suji", other: "suji",
     letter: "wish you happy birthday madam be happy for ever",
     sign: "reciving place",
-    caption: "GEM"
+    caption: "💎GEMMM💎"
   }
 };
 /* ================================================= */
